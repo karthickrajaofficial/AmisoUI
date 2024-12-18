@@ -8,17 +8,17 @@ const TeamSection = () => {
     {
       name: "Monica Gordon",
       role: "House Cleaning",
-      image: "team.jpg"
+      image: "team.webp"
     },
     {
       name: "Laura Jones",
       role: "Cleaner",
-      image: "team.jpg"
+      image: "team.webp"
     },
     {
       name: "Sara Ryan",
       role: "House Cleaner",
-      image: "team.jpg"
+      image: "team.webp"
     }
   ];
 

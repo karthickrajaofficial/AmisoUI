@@ -9,7 +9,7 @@ const CleanerSection = () => {
       <div className="container relative mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-2 mb-16">
         <div className="bg-yellow-400 rounded-lg overflow-hidden">
           <img
-            src="cleaner.jpg"
+            src="cleaner.webp"
             alt="Cleaning Service Professional"
             className="w-full h-full object-cover"
           />
@@ -102,7 +102,7 @@ const CleanerSection = () => {
 
         <div className="absolute right-0 bottom-0 opacity-20">
           <img
-            src="why.jpg"
+            src="why.webp"
             alt="Cleaning Supplies"
             className="w-[9030px] h-[520px] object-cover"
           />

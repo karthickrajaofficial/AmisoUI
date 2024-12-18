@@ -19,7 +19,7 @@ const StatsAndNews = () => {
       title: "Temporary Ruling Issued",
       description: "Washla has met the demands of a growing world. Cleaning tremendous.",
       author: {
-        image: "team.jpg",
+        image: "team.webp",
         name: "Martha Smith",
         role: "Washla CEO"
       }
@@ -30,7 +30,7 @@ const StatsAndNews = () => {
       title: "The Expands California",
       description: "welcomed and every sort ut perspiciatis unde omnis iste natus.",
       author: {
-        image: "team.jpg",
+        image: "team.webp",
         name: "Laura Jones",
         role: "Accounting"
       }
@@ -41,7 +41,7 @@ const StatsAndNews = () => {
       title: "Temporary Ruling Issued",
       description: "Washla has met the demands of a growing world. The Cleaning.",
       author: {
-        image: "team.jpg",
+        image: "team.webp",
         name: "Matt Ryan",
         role: "Lawyer"
       }
@@ -72,7 +72,7 @@ const StatsAndNews = () => {
       <div
         className="relative text-white py-36"
         style={{
-          backgroundImage: "url('cta.jpg')", // Replace with your image path
+          backgroundImage: "url('cta.webp')", // Replace with your image path
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -153,7 +153,7 @@ const StatsAndNews = () => {
                 {/* News Image */}
                 <div className="relative h-48 bg-gray-200">
                   <img
-                    src="cleaning.jpg"
+                    src="cleaning.webp"
                     alt={item.title}
                     className="w-full h-full object-cover"
                   />

@@ -15,7 +15,7 @@ const LandingPage = () => {
       <div className="relative text-white">
         <div className="relative">
           <img
-            src="banner.jpg"
+            src="banner.webp"
             alt="Cleaning Service"
             className="h-[800px] w-full object-cover"
           />
