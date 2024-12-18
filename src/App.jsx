@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "./HeroSection";
+
 // import CleaningWebsite from "./CleaningWebsite";
 import LandingPage from "./LandingPage";
 import WhyChooseUs from "./WhyChooseUs";
