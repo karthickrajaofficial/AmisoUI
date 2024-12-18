@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="mb-6">
-              <img src="logo.png" alt="amiso" className="h-8" />
+              <img src="logo.webp" alt="amiso" className="h-8" />
             </div>
             <p className="text-gray-500">
               Washla customers has a tremendous opportunity to answer the call of logistic.
