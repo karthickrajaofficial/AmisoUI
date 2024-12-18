@@ -12,7 +12,7 @@ const TopBar = () => {
   return (
     <div
       className=" top-0 left-0 w-full bg-cyan-400 z-5 text-white py-2 px-4 md:px-8 z-50 shadow-md"
-      style={{ backdropFilter: "blur(5px)" }} // Optional: Adds a blur effect
+      style={{ backdropFilter: "blur(5px)" }} 
     >
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0">

@@ -6,8 +6,8 @@ import { BsBuilding } from "react-icons/bs";
 const CleanerSection = () => {
   return (
     <div>
-      <div className="container relative mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-2 mb-16">
-        <div className="bg-yellow-400 rounded-lg overflow-hidden">
+      <div className="container relative mx-auto  grid grid-cols-1 md:grid-cols-2 gap-2 mb-16">
+        <div className="bg-yellow-400  overflow-hidden">
           <img
             src="cleaner.webp"
             alt="Cleaning Service Professional"
@@ -15,7 +15,8 @@ const CleanerSection = () => {
           />
         </div>
 
-        <div className="flex flex-col justify-center md:justify-start bg-white p-10 shadow-lg rounded-lg">
+        <div className="flex absolute flex-col justify-center md:justify-start bg-white p-10 shadow-lg rounded-lg"
+         style={{ top: "30%",left:"40%" }} >
           <p className="text-gray-500 mb-2">READY FOR YOU</p>
           <h2 className="text-3xl font-bold text-cyan-900 mb-4">
             A Cleaner Place is a Safer Place.
@@ -25,7 +26,7 @@ const CleanerSection = () => {
             customers back the time they deserve to enjoy the things they love.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-6 py-10">
             <div className="flex gap-4 items-start">
               <div className="text-cyan-500">
                 <MdCleaningServices size={24} />
@@ -56,7 +57,7 @@ const CleanerSection = () => {
         </div>
       </div>
 
-      <div className="bg-cyan-50 py-16 relative">
+      <div className="bg-cyan-50 py-8 relative">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <p className="text-gray-500 mb-2">Why Choose Us</p>
@@ -100,11 +101,11 @@ const CleanerSection = () => {
           </div>
         </div>
 
-        <div className="absolute right-0 bottom-0 opacity-20">
+        <div className="absolute right-0 bottom-0 opacity-10">
           <img
             src="why.webp"
             alt="Cleaning Supplies"
-            className="w-[9030px] h-[520px] object-cover"
+            className="w-[9030px] h-[460px] object-cover"
           />
         </div>
       </div>

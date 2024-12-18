@@ -71,7 +71,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 mb-4 md:mb-0">
-            © 2023 amiso all rights reserved.
+            © 2024 amiso all rights reserved.
           </p>
           
           {/* Social Links */}

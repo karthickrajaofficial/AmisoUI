@@ -7,7 +7,7 @@ const LandingPage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen bg-cyan-400 flex flex-col">
       <TopBar />
 
       <NavBar />
@@ -100,11 +100,11 @@ const LandingPage = () => {
         </div>
       </div>
       {/* About Section */}
-      <div className="bg-cyan-400 text-white py-12 md:py-16 mt-12 md:mt-16">
+      <div className="bg-cyan-400 text-white py-3 mb-10 md:py-3 mt-6 md:mt-16">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              <h2 className="text-2xl text-black md:text-3xl font-bold mb-4">
                 A Clean House is a<br />
                 Happy Place!
               </h2>
@@ -113,18 +113,18 @@ const LandingPage = () => {
               </p>
             </div>
             <div className="space-y-4">
-              <p className="text-sm md:text-base">
-                Washla customers has a tremendous opportunity to answer the call
+              <p className="text-sm md:text-base"> <b className="text-4xl">W</b>
+                ashla customers has a tremendous opportunity to answer the call
                 of logistic needs across the globe. Has 26 affiliated state
                 soybean associations representing 30 soybean-producing state.
               </p>
+            </div>
               <p className="text-sm md:text-base">
                 World's leading non-asset-based supply chain management
                 companies, we design and implement industry-leading. We
                 specialise in intelligent & effective search and believes in the
                 power of partnerships to grow business.
               </p>
-            </div>
           </div>
         </div>
       </div>

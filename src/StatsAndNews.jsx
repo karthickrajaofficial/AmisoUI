@@ -140,7 +140,7 @@ const StatsAndNews = () => {
           </p>
         </div>
 
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl border">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {news.map((item, index) => (
               <motion.div
@@ -158,7 +158,7 @@ const StatsAndNews = () => {
                     className="w-full h-full object-cover"
                   />
                   {/* Date Badge */}
-                  <div className="absolute top-4 left-4 bg-cyan-500 text-white rounded px-4 py-2 text-center">
+                  <div className="absolute top-4 left-4  bg-cyan-500 text-white rounded px-4 py-2 text-center">
                     <div className="text-xl font-bold">{item.date.day}</div>
                     <div className="text-sm">{item.date.month}</div>
                   </div>
